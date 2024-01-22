@@ -16,7 +16,7 @@ function App() {
         Tailwind test
       </h1>
       {/* <Card channel="chaiaurcode" someobj={newArr} /> */}
-      <Card channel="chaiaurcode" />
+      <Card username="srinathsri" />
 
       <Card />
     </>

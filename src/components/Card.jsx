@@ -1,8 +1,10 @@
 import React from "react";
 
-function Card(props) {
+// function Card(props) {
+function Card({ username }) {
   //   console.log("props ", props);
-  console.log();
+  //   console.log(props.username);
+  console.log(username);
 
   return (
     <div className="relative h-[400px] w-[300px] rounded-md">
