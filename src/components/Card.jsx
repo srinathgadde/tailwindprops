@@ -1,7 +1,7 @@
 import React from "react";
 
 // function Card(props) {
-function Card({ username }) {
+function Card({ username, btnText = "visit me", bio }) {
   //   console.log("props ", props);
   //   console.log(props.username);
   console.log(username);
@@ -15,13 +15,11 @@ function Card({ username }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
       <div className="absolute bottom-4 left-4 text-left">
-        <h1 className="text-lg font-semibold text-white">Delba</h1>
-        <p className="mt-2 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-          debitis?
-        </p>
+        <h1 className="text-lg font-semibold text-white">{username}</h1>
+        <p className="mt-2 text-sm text-gray-300">{bio}</p>
         <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-black">
-          View Profile →
+          {/* {btnText || "visit me"} → */}
+          {btnText || "visit me"} →
         </button>
       </div>
     </div>

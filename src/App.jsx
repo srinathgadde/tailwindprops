@@ -16,9 +16,16 @@ function App() {
         Tailwind test
       </h1>
       {/* <Card channel="chaiaurcode" someobj={newArr} /> */}
-      <Card username="srinathsri" />
-
-      <Card />
+      <Card
+        username="srinath"
+        btnText="click me"
+        bio="Hi I'm Srinath.. Connect to me"
+      />
+      <Card
+        username="rohitsharma"
+        // btnText="visit me"
+        bio="HI I'm Rohit Sharma.. Connect to me"
+      />
     </>
   );
 }
